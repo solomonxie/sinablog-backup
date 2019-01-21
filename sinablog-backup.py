@@ -1,5 +1,4 @@
-# Python3
-# ---coding:utf-8---
+#!/usr/bin/env python3
 
 # ==== This project should be running in a python3 enviroment, preferred in Virtualenv. ====
 #
@@ -113,7 +112,7 @@ class Article:
         self.time = ''
         self.content = ''
 
-        # start fetching blog 
+        # start fetching blog
         self.fetch_blog(self.url)
 
 
